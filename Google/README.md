@@ -47,3 +47,16 @@ ____
   Return the minimum cuts needed for a palindrome partitioning of A.<br>
     Sample Input: "aba"
     Sample Output: 0 
+- Given three strings A, B and C your task is to complete the function isInterleave which returns true if C is an interleaving of A and B else returns false. C is said to be       interleaving A and B, if it contains all characters of A and B and order of all characters in individual strings is preserved.
+  Expected Time Complexity: O(N * M)
+  Expected Auxiliary Space: O(N * M)
+  here, N = length of A, and M = length of B
+
+  Constraints:
+  1<=length of A, B, C <=100
+  
+  Input:
+  A = YX, B = X, C = XXY
+  Output: 0
+  Explanation: XXY is not interleaving
+  of YX and X
