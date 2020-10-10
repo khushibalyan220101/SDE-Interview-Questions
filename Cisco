@@ -1,0 +1,43 @@
+1. Missing number in array
+  Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found.
+
+  Input:
+  The first line of input contains an integer T denoting the number of test cases. For each test case first line contains N(size of array). The subsequent line contains 
+  N-1 array elements.
+
+  Output:
+  Print the missing number in array.
+
+  Constraints:
+  1 ≤ T ≤ 200
+  1 ≤ N ≤ 107
+  1 ≤ C[i] ≤ 107
+  
+2. A thief trying to escape from a jail has to cross N walls each with varying heights. He climbs X feet every time. But, due to the slippery nature of those walls, every times
+  he slips back by Y feet.  Now the task is to calculate the total number of jumps required to cross all walls and escape from the jail.
+
+  Input:
+  The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains three space separated integers X, Y, N.
+  Then in the next line are N space separated values denoting the heights ( Ht[] ) of the walls.
+
+  Output:
+  For each test case in a new line print the total number of jumps.
+
+  Constraints:
+  1<=T<=100
+  1<= N, X, Y <=100
+  1<= Ht[] <=1000
+
+3. Given an array A of size N, the task is to check if the given array represents a Binary Max Heap.
+
+  Input:
+  The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains two lines. The first line of input 
+  contains an integer N denoting the size of the array. Then in the next line are N space separated array elements.
+
+  Output:
+  If array represents a Binary Max Heap, print "1", else print "0" (without quotes).
+
+  Constraints:
+  1 <= T <= 100
+  1 <= N <= 107
+  1 <= Ai <= 1015
